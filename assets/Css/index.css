@@ -1,0 +1,67 @@
+/* Index.php */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #FCF2E5;
+    padding: 50px;
+}
+#header {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tabel {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    max-width: 1300px;
+}
+#header_table{
+    background-color: #A8A492;
+}
+th{
+    padding: 15px;
+}
+th button{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 5px;
+    font-size: 15px;
+}
+.btn-edit:hover{
+    background-color: green;
+}
+.btn-delete:hover {
+    background-color: red;
+}
+.container-input{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+span{
+    color: blue;
+    font-weight: bold;
+
+}
+.btn-input{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+.btn-input:hover{
+    background-color: #A8A492;
+}
+td{
+    padding: 10px 5px;
+    text-align: center;
+    
+}

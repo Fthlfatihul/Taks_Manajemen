@@ -1,0 +1,88 @@
+/* index-edit.php */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #FCF2E5;
+    padding: 50px;
+}
+input::placeholder{
+    color: black;
+}
+.judul {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.form {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 550px;
+    padding: 10px 25px 20px 25px;
+    margin: auto;
+    background-color: #ffffff;
+}
+.inputan{
+    padding: 10px;
+    font-size: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+textarea::placeholder {
+    color: black;
+    font-size: 13px;
+}
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+select option{
+    color: #888888;
+    font-family: inherit;
+}
+.input-action{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 15px;
+   gap: 15px;
+}
+button {
+    padding: 4px 8px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-cancel:hover{
+    background-color: red;
+}
+.btn-submit:hover{
+    background-color: green;
+}
